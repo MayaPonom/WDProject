@@ -1,0 +1,28 @@
+
+
+
+html {
+    --basic-black:var(--basic-black)
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.section-title {
+    font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+}
+.main-logo {
+    font-family: 'Revalia', cursive;
+    font-size: 48px;
+line-height: 60px;
+color: #34547A;
+text-decoration: none;
+}
+.main-nav-list {
+    list-style-type: none;
+    margin: 0;
+
+}
