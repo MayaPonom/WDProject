@@ -7,63 +7,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="/project/css/style.css">
+    <link href="/project/css/style.css" rel="stylesheet">
     <title>WD</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="main-nav container">
             <a class="main-logo"href="#">WD</a>
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Об авторе</a></li>
-                <li><a href="#">Работы</a></li>
-                <li><a href="#">Процесс</a></li>
-                <li><a href="#'">Контакты</a>/li>
+            <ul class="main-nav-list">
+                <li class="main-nav-item">
+                    <a class="main-nav-link" href="#">Главная</a>
+                </li>
+                <li class="main-nav-item">
+                    <a class="main-nav-link" href="#">Об авторе</a>
+                </li class="main-nav-item">
+                <li>
+                    <a class="main-nav-link" href="#">Работы</a>
+                </li>
+                <li class="main-nav-item">
+                    <a class="main-nav-link" href="#">Процесс</a>
+                </li>
+                <li class="main-nav-item">
+                    <a class="main-nav-link" href="#'">Контакты</a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Страница-портфолио обо мне</h1>
-        <section>
-           <img src="/project/laptop.png.png" alt="#">
-           <h2>Дизайн и верстка</h2>
-           <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+        <h1 class="visually-hidden">Страница-портфолио обо мне</h1>
+        <section class="promo">
+            <div class="promo-wrapp container">
+                <div class="promo-image">
+           <img src="/project/img/laptop.png.png" width="357" height="234" alt="#">
+        </div>
+           <h2 class="section-title promo-title"> Дизайн и верстка</h2>
+           <p class="description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
                Lorem Ipsum является стандартной "рыбой" для текстов 
                на латинице с начала XVI века.</p>
-               <a href="#">Написать мне</a>
+               <a class="main-button blue-background" href="#">Написать мне</a>
+           </div>
         </section>
         <section>
             <h2 class="section-title">Дизайн и верстка</h2>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+            <p class="description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
                 Lorem Ipsum является стандартной "рыбой" для текстов 
                 на латинице с начала XVI века.</p>
-                <section>
-                    <h2>Мои преимущества</h2>
+                <section class="blue-background">
+                    <h2 class="section-title promo-title">Мои преимущества</h2>
                     <ul>
                         <li>
-                            <img src="#" alt="">
-                            <span>40+ проектов</span>
+                            <img src="/project/img/numbers__item.png"width="50" height="50" alt="">
+                            <span class="numbers-icon projects">40+ проектов</span>
                         </li>
                         <li>
-                            <img src="#" alt="">
-                            <span>40+ проектов</span>
+                            <img src="/project/img/numbers__item.png"width="50" height="50" alt="">
+                            <span  class="numbers-icon projects">40+ проектов</span>
                         </li>
                         <li>
-                            <img src="#" alt="">
-                            <span>40+ проектов</span>
+                            <img src="/project/img/numbers__item.png"width="50" height="50" alt="">
+                            <span  class="numbers-icon projects">40+ проектов</span>
                         </li>
                         <li>
-                            <img src="#" alt="">
-                            <span>40+ проектов</span>
+                            <img src="/project/img/numbers__item.png" width="50" height="50" alt="">
+                            <span  class="numbers-icon projects">40+ проектов</span>
                         </li>
                         <li>
-                            <img src="#" alt="">
-                            <span>40+ проектов</span>
+                            <img src="/project/img/numbers__item.png" width="50" height="50" alt="">
+                            <span  class="numbers-icon projects">40+ проектов</span>
                         </li>
                         <li>
-                            <img src="#" alt="">
-                            <span>40+ проектов</span>
+                            <img src="/project/img/numbers__item.png" width="50" height="50" alt="">
+                            <span  class="numbers-icon projects">40+ проектов</span>
                         </li>
                     </ul>
                 </section>
@@ -72,18 +86,18 @@
         <section>
             <h2 class="section-title">Мои навыки</h2>
             <ul>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Photoshop</li>
+                <li class="second-inform">Adobe Photoshop</li>
+                <li class="second-inform">Adobe Photoshop</li>
+                <li class="second-inform">Adobe Photoshop</li>
             </ul>
             <div>
-                <img src="/project/photo.png" alt="Фото красивого мужчины">
+                <img src="/project/img/photo.png" width="555" height="450" alt="Фото красивого мужчины">
             </div>
 
         </section>
-        <section>
-            <h2>Как я работаю</h2>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+        <section class="promo">
+            <h2 class="section-title promo-title">Как я работаю</h2>
+            <p class="description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
                 Lorem Ipsum является стандартной "рыбой" для текстов 
                 на латинице с начала XVI века</p>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/nidQCt_HEsY" title="YouTube video player" frameborder="0" allow="accelerometer;
@@ -93,14 +107,30 @@
                 <section>
                     <h2 class="section-title">Галерея работ</h2>
                     <ul>
-                        <li><a href="#"><img src="" alt="/"></a></li>
-                        <li><a href="#"><img src="" alt="/"></a></li>
-                        <li><a href="#"><img src="" alt="/"></a></li>
-                        <li><a href="#"><img src="" alt="/"></a></li>
-                        <li><a href="#"><img src="" alt="/"></a></li>
-                        <li><a href="#"><img src="" alt="/"></a></li>
-                        <li><a href="#"><img src="" alt="/"></a></li>
-                        <li><a href="#"><img src="" alt="/"></a></li>
+                        <li>
+                            <a href="#"><img src="/project/img/Rectangle 7.jpg" width="480" height="480" alt="/"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/project/img/Rectangle 7.7.png" width="480" height="480" alt="/"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/project/img/Rectangle 7.jpg" width="480" height="480" alt="/"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/project/img/Rectangle 7.7.png" width="480" height="480" alt="/"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/project/img/Rectangle 7.jpg" width="480" height="480" alt="/"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/project/img/Rectangle 7.7.png" width="480" height="480" alt="/"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/project/img/Rectangle 7.jpg" width="480" height="480" alt="/"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="/project/img/Rectangle 7.7.png" width="480" height="480" alt="/"></a>
+                        </li>
                     </ul>
                 </section>
                 <section>
@@ -108,54 +138,60 @@
                     <ul>
                         <li>
                             <a href="#" target="_blank">
-                                <img src="/project/Rectangle 9 (1).png" alt="Логотип компании">
+                                <img src="/project/img/Rectangle 9 (1).png" width="255" height="120" alt="Логотип компании">
                             </a>
                         </li>
                         <li>
                             <a href="#" target="_blank">
-                                <img src="/project/Rectangle 9 (1).png" alt="Логотип компании">
+                                <img src="/project/img/Rectangle 9 (1).png" width="255" height="120" alt="Логотип компании">
                             </a>
                         </li>
                         <li>
                             <a href="#" target="_blank">
-                                <img src="/project/Rectangle 9 (1).png" alt="Логотип компании">
+                                <img src="/project/img/Rectangle 9 (1).png" width="255" height="120" alt="Логотип компании">
                             </a>
                         </li>
                         <li>
                             <a href="#" target="_blank">
-                                <img src="/project/Rectangle 9 (1).png" alt="Логотип компании">
+                                <img src="/project/img/Rectangle 9 (1).png" width="255" height="120" alt="Логотип компании">
                             </a>
                         </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="/project/img/Rectangle 9 (1).png" width="255" height="120" alt="Логотип компании">
+                            </a>
+                        </li>
+
                     </ul>
                 </section>
-                <section>
-                    <h2>Хотите веб-сайт?</h2>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                <section class="promo">
+                    <h2 class="section-title promo-title">Хотите веб-сайт?</h2>
+                    <p class="description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
                         Lorem Ipsum является стандартной "рыбой" для текстов 
                         на латинице с начала XVI века</p>
                         <form action=""method="">
                             <label for="name">Ваше имя</label>
-                            <input id="name" type="text" name="name" placeholder="Ваше имя">
+                            <input id="name" type="text" name="name" class="final-button" placeholder="Ваше имя">
                             <label for="mail">Ваш e-mail</label>
-                            <input id="mail" type="text" name="name" placeholder="Ваш e-mail">
-                            <textarea name="message">Сообщение</textarea>
-                            <button type="submit">Отправить</button>
+                            <input id="mail" type="text" name="name" class="final-button" placeholder="Ваш e-mail">
+                            <textarea name="message" class="message-button">Сообщение</textarea>
+                            <button type="submit" class="main-second-button blue-background">Отправить</button>
 
                         </form>
                 </section>
     </main>
-    <footer>
-        <p>Иван Иванов</p>
-        <p>(с) 2018. Все права защищены.</p>
+    <footer class="blue-background">
+        <p class="author-name">Иван Иванов</p>
+        <p class="copyright-mark">(с) 2018. Все права защищены.</p>
        <ul>
            <li>
-               <a href="#" target="_blank"><img src="" alt="Иконка твитера"></a>
+               <a href="#" target="_blank"><img src="/project/img/Vector (1).png" alt="Иконка твитера"></a>
            </li>
            <li>
-            <a href="#" target="_blank"><img src="" alt="Иконка твитера"></a>
+            <a href="#" target="_blank"><img src="/project/img/Vector (1).png" alt="Иконка твитера"></a>
         </li>
         <li>
-            <a href="#" target="_blank"><img src="" alt="Иконка твитера"></a>
+            <a href="#" target="_blank"><img src="/project/img/Vector (1).png" alt="Иконка твитера"></a>
         </li>
        </ul>
     </footer>
